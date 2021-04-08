@@ -11,6 +11,9 @@ I was too lazy to try to make other languages work so just commit if you want a 
 I originally made this for use with Python 3.7 (python37 in your files) so if you have some other version just download 3.7 or edit the file with notepad
 
 
+I made this to compile and execute C code with the GCC compiler so you'll have to use GCC for C code
+
+
 Open Powershell on your computer and then cd into desktop. Run .\script.ps1 (or whatever you named it).
 
 
