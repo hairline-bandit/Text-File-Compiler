@@ -6,7 +6,7 @@ if ( $language = "python"){
 	cat "C:\users\$env:UserName\desktop\$file" > "C:\users\$env:UserName\desktop\$name"
 	$attack="C:\users\$env:UserName\appdata\local\programs\python\python37\python.exe"
 	$fil="C:\users\$env:UserName\desktop\$name"
-	Start-Process -FilePath $attack -ArgumentList $fil -Wait
+	Start-Process -FilePath $attack -ArgumentList $fil -Wait -NoNewWindow
 	Remove-Item -Path $fil
 }
 
