@@ -29,7 +29,7 @@ Second is the .txt file you want to read from **IT HAS TO BE ON THE DESKTOP** (m
 It will automatically delete the new file once the code execution window is closed (just delete the "Remove-Item" line from the script if you don't like this)
 
 
-The new file's name will always be "11111111111111111111111111111111" so make sure you don't have a file with that name on your desktop
+The new file's name will always be "11111111111111111111111111111111" (and "a.exe" for C) so make sure you don't have a file with that name on your desktop
 
 
 ***How it works (if literally anyone cares)***
