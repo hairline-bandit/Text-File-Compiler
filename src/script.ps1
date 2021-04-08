@@ -1,6 +1,6 @@
 param ($language, $file)
 
-if ( $language = "python"){
+if ( $language -eq "python"){
 	$name="11111111111111111111111111111111.py"
 	New-Item -Path "C:\users\$env:UserName\desktop\$name" -ItemType File
 	cat "C:\users\$env:UserName\desktop\$file" > "C:\users\$env:UserName\desktop\$name"
