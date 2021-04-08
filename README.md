@@ -26,6 +26,9 @@ Second is the .txt file you want to read from **IT HAS TO BE ON THE DESKTOP** (m
 Third is the Programming Language file you want to write to (make sure you add the file extension and match it to the first argument)
 
 
+Because many windows that are opened to execute your code close automatically once the code finishes, you may want to add a blank input at the end to keep it open if you want to see the output
+
+
 ***How it works (if literally anyone cares)***
 
 It checks the first arg for the language.
