@@ -3,6 +3,10 @@ I saw this on a satirical Joma Tech video. Now you can run Python scripts typed 
 
 ***Guide***
 
+
+I originally made this for use with Python 3.7 (python37 in your files) so if you have some other version just download 3.7 or edit the file with notepad
+
+
 It takes 3 arguments.
 
 
