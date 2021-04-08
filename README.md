@@ -23,9 +23,6 @@ First is the programming language you want to write to
 Second is the .txt file you want to read from **IT HAS TO BE ON THE DESKTOP** (make sure you have the file extension)
 
 
-Because many windows that are opened to execute your code close automatically once the code finishes, you may want to add a blank input at the end to keep it open if you want to see the output
-
-
 It will automatically delete the new file once the code execution window is closed (just delete the "Remove-Item" line from the script if you don't like this)
 
 
