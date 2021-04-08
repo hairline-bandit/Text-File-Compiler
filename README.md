@@ -5,9 +5,15 @@ I saw this on a satirical Joma Tech video. Now you can run Python scripts typed 
 
 It takes 3 arguments.
 
+
 First is the programming language you want to write to
+
+
 Second is the .txt file you want to read from **IT HAS TO BE ON THE DESKTOP** (make sure you have the file extension)
+
+
 Third is the Programming Language file you want to write to (make sure you add the file extension and match it to the first argument)
+
 
 **How it works (if literally anyone cares)**
 
