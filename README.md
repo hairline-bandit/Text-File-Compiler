@@ -14,7 +14,7 @@ I originally made this for use with Python 3.7 (python37 in your files) so if yo
 Open Powershell on your computer and then cd into desktop. Run .\script.ps1 (or whatever you named it).
 
 
-It takes 3 arguments.
+It takes 2 arguments.
 
 
 First is the programming language you want to write to
@@ -23,10 +23,13 @@ First is the programming language you want to write to
 Second is the .txt file you want to read from **IT HAS TO BE ON THE DESKTOP** (make sure you have the file extension)
 
 
-Third is the Programming Language file you want to write to (make sure you add the file extension and match it to the first argument)
-
-
 Because many windows that are opened to execute your code close automatically once the code finishes, you may want to add a blank input at the end to keep it open if you want to see the output
+
+
+It will automatically delete the new file once the code execution window is closed (just delete the "Remove-Item" line from the script if you don't like this)
+
+
+The new file's name will always be "11111111111111111111111111111111" so make sure you don't have a file with that name on your desktop
 
 
 ***How it works (if literally anyone cares)***
