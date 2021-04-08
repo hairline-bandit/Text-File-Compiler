@@ -17,13 +17,13 @@ Open Powershell on your computer and then cd into desktop. Run .\script.ps1 (or 
 It takes 2 arguments.
 
 
-First is the programming language you want to write to
+First is the programming language you want to write to (check in "list_of_languages.md" for case and such)
 
 
 Second is the .txt file you want to read from **IT HAS TO BE ON THE DESKTOP** (make sure you have the file extension)
 
 
-It will automatically delete the new file once the code execution window is closed (just delete the "Remove-Item" line from the script if you don't like this)
+It will automatically delete the new file(s) once the code execution has finished (just delete the "Remove-Item" line from the script if you don't like this)
 
 
 The new file's name will always be "11111111111111111111111111111111" (and "a.exe" for C) so make sure you don't have a file with that name on your desktop
@@ -35,4 +35,4 @@ It checks the first arg for the language.
 It creates a file on the desktop of the correct type for selected language (using 3rd arg as file name).
 It "cats" contents of 2nd parameter (.txt file) to the new file.
 It then starts the programming language interpreter or compiler or whatever with the new file as its arg.
-It waits until code has finished and then deletes the new file.
+It waits until code has finished and then deletes the new file(s).
