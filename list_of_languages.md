@@ -6,3 +6,8 @@ For Python code: "python"
 For C code: "c"
 
 ^ Default Compiler: GCC (change script if you use/have a different one)
+
+
+For C++ code: "cpp"
+
+^ Default Compiler: G++ (change script if you use/have a different one)
