@@ -5,3 +5,5 @@
 4/8/21 Added "-NoNewWindow" so that you don't need an input statement at the end of code to keep it open.
 
 4/8/21 Added capability to compile and execute C files
+
+4/9/21 Added capability to compile and execute C++ files
