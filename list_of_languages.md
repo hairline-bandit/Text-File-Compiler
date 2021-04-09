@@ -11,3 +11,8 @@ For C code: "c"
 For C++ code: "cpp"
 
 ^ Default Compiler: G++ (change script if you use/have a different one)
+
+
+For Java code: "java"
+
+^ Default Compiler: JDK ("javac" and "java" commands)
