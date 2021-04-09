@@ -1,5 +1,7 @@
 # Run-a-text-file-as-a-programming-language-file
 
+You can think of it as 1 compiler that compiles using your compilers.
+
 Are you tired of having to download 17,854 IDEs to program? Do you hate having to remember file extensions? Well stop being an idiot and commit to make this work for your language if it doesn't already. Now you can program using a text file and execute those text files in any language that's supported here. You now only need 1 text editor that's built in, notepad. Or you can use word, but it kinda breaks some (a lot).   
 
 
