@@ -32,7 +32,11 @@ The new file's name will always be "11111111111111111111111111111111" (and "a.ex
 ***How it works (if literally anyone cares)***
 
 It checks the first arg for the language.
+
 It creates a file on the desktop of the correct type for selected language (using 3rd arg as file name).
+
 It "cats" contents of 2nd parameter (.txt file) to the new file.
+
 It then starts the programming language interpreter or compiler or whatever with the new file as its arg.
+
 It waits until code has finished and then deletes the new file(s).
