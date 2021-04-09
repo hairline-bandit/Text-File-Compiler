@@ -8,4 +8,4 @@
 
 4/9/21 Added capability to compile and execute C++ files using G++
 
-4/9/21 Added capability to compile and execute Java files using Javac and Java commands
+4/9/21 Added capability to compile and execute Java files using JDK
