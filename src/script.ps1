@@ -45,5 +45,14 @@ if ( $language -eq "python"){
 	Remove-Item -path $fil
 	$removal= -join($prefix, ".class")
 	Remove-Item -path "C:\users\$env:UserName\desktop\$removal"
+} elseif ( $language -eq "go"){
+	$name="11111111111111111111111111111111.go"
+	New-Item -Path "C:\users\$env:UserName\desktop\$name" -ItemType File
+	cat "C:\users\$env:UserName\desktop\$file" > "C:\users\$env:UserName\desktop\$name"
+	$attack="go"
+	$fil="C:\users\$env:UserName\desktop\$name"
+	"+++++++++++++++++++EXECUTING CODE++++++++++++++++++++"
+	Start-Process $attack -ArgumentList "run $fil" -Wait -NoNewWindow
+	Remove-Item -path $fil
 }
 
