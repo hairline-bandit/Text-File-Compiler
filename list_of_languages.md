@@ -16,3 +16,8 @@
 **For Java code: "java"**
 
 ^ Default Compiler: JDK ("javac" and "java" commands)
+
+
+**For Go (GoLang) code: "go"**
+
+^ Default Compiler: Go ("go run" command)
