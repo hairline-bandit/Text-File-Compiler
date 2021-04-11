@@ -9,3 +9,5 @@
 4/9/21 Added capability to compile and execute C++ files using G++
 
 4/9/21 Added capability to compile and execute Java files using JDK
+
+4/11/21 Added capability to compile and execute Go (GoLang) files using Go's compiler
