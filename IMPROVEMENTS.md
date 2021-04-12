@@ -12,4 +12,4 @@
 
 4/11/21 Added capability to compile and execute Go (GoLang) files using Go's compiler
 
-4/12/21 Added capability to compile and execute JavaScipt files using Node Runtime Enviornment
+4/12/21 Added capability to compile and execute JavaScipt files using Node Runtime Environment
