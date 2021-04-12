@@ -21,3 +21,8 @@
 **For Go (GoLang) code: "go"**
 
 ^ Default Compiler: Go ("go run" command)
+
+
+**For JavaScript code: "js"**
+
+^ Default Interpreter: Node Runtime Enviornment ("node" command)
