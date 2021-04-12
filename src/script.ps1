@@ -54,5 +54,14 @@ if ( $language -eq "python"){
 	"+++++++++++++++++++EXECUTING CODE++++++++++++++++++++"
 	Start-Process $attack -ArgumentList "run $fil" -Wait -NoNewWindow
 	Remove-Item -path $fil
+} elseif ( $language -eq "js"){
+	$name="11111111111111111111111111111111.js"
+	New-Item -Path "C:\users\$env:UserName\desktop\$name" -ItemType File
+	cat "C:\users\$env:UserName\desktop\$file" > "C:\users\$env:UserName\desktop\$name"
+	$attack="node"
+	$fil="C:\users\$env:UserName\desktop\$name"
+	"+++++++++++++++++++EXECUTING CODE++++++++++++++++++++"
+	Start-Process $attack -ArgumentList $fil -Wait -NoNewWindow
+	Remove-Item -path $fil
 }
 
