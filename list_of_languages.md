@@ -25,4 +25,4 @@
 
 **For JavaScript code: "js"**
 
-^ Default Interpreter: Node Runtime Enviornment ("node" command)
+^ Default Interpreter: Node Runtime Environment ("node" command)
